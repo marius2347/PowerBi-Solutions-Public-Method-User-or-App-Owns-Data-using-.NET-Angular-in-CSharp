@@ -1,0 +1,7 @@
+<button *ngIf="!isLoggedIn" (click)="login()" class="login-btn">
+  Login to Power BI
+</button>
+
+<div *ngIf="isLoggedIn && reportConfig.accessToken" class="report-wrapper">
+  <powerbi-report [embedConfig]="reportConfig" [cssClassName]="'report-container'"></powerbi-report>
+</div>

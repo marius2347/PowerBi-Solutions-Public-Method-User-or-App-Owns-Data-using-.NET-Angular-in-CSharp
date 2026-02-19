@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.report-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.login-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background: #0078d4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

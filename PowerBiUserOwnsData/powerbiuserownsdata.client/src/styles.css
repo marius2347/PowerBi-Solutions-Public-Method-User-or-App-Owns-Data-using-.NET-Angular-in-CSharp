@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Dark mode background */
+html, body {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Power BI Report Container - must be global because it's applied inside powerbi-client-angular component */
+.report-container {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.report-container iframe {
+  border: none !important;
+}
