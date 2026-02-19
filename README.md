@@ -1,0 +1,1 @@
+# PowerBi-Solutions-Public-Method-User-or-App-Owns-Data-using-.NET-Angular-in-CSharp
