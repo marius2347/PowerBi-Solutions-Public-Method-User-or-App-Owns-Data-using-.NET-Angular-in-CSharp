@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:65191",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\MCIOBAN3\\Desktop\\DOTNET Projects\\Project18\\EmbedPowerBiPublic\\EmbedPowerBiPublic.Server\\..\\embedpowerbipublic.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

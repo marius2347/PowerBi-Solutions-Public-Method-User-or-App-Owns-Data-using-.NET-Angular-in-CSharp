@@ -1,0 +1,6 @@
+@EmbedPowerBiPublic.Server_HostAddress = http://localhost:5271
+
+GET {{EmbedPowerBiPublic.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
