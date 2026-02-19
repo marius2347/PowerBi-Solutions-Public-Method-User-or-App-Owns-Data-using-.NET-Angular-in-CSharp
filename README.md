@@ -47,9 +47,6 @@ The professional, enterprise-grade embedding solution ideal for external users, 
 * **Language:** C#
 * **Integration:** Power BI REST API, Azure Active Directory (Entra ID) Service Principals
 
-## 📦 Getting Started
-
-*(Add instructions here on how to run the .NET backend and Angular frontend, e.g., `dotnet run` and `npm start`, along with any necessary Azure/PowerBI environment variables that need to be configured).*
 
 ## 📬 Contact
 
