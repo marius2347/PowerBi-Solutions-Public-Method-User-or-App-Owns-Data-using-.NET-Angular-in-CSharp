@@ -4,7 +4,7 @@ A comprehensive proof-of-concept project demonstrating three distinct methods fo
 
 ## 📸 Dashboard Preview
 
-![Power BI Embedded Dashboard](dashboard.lpng)
+![Power BI Embedded Dashboard](dashboard.png)
 
 ## 🚀 Embedding Methods Implemented
 
