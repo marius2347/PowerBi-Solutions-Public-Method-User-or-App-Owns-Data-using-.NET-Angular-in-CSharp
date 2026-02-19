@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:50755",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\MCIOBAN3\\Desktop\\DOTNET Projects\\Project18\\PowerBiUserOwnsData\\PowerBiUserOwnsData.Server\\..\\powerbiuserownsdata.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
