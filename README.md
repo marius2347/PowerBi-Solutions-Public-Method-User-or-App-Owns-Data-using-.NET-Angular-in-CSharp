@@ -11,7 +11,8 @@ A comprehensive proof-of-concept project demonstrating three distinct methods fo
 ### 1. Publish to Web (Public Method)
 A straightforward approach for embedding non-sensitive public data.
 * **Implementation:** Uses a standalone Angular component (`public-report.component.ts`) that securely renders an `<iframe>` using Angular's `DomSanitizer`.
-* **Security & Considerations:** * ⚠️ **No Authentication:** The report is fully public.
+* **Security & Considerations:** *
+  * ⚠️ **No Authentication:** The report is fully public.
   * ⚠️ **Data Exposure:** Anyone with the link can view the data. Should never be used for proprietary or confidential data.
   * ⚠️ **Search Indexing:** Microsoft may index these reports, making them discoverable in public search results.
 
