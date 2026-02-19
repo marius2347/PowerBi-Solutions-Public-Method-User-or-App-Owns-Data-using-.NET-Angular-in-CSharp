@@ -1,0 +1,22 @@
+<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>App Owns Data - License Free</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content class="embed-content">
+      <div *ngIf="isLoading" class="loader">
+        <mat-spinner diameter="50"></mat-spinner>
+      </div>
+
+      <div *ngIf="errorMessage" class="error">
+        {{ errorMessage }}
+      </div>
+
+      <powerbi-report *ngIf="!isLoading && !errorMessage"
+                      [embedConfig]="reportConfig"
+                      cssClassName="pbi-container">
+      </powerbi-report>
+    </mat-card-content>
+  </mat-card>
+</div>

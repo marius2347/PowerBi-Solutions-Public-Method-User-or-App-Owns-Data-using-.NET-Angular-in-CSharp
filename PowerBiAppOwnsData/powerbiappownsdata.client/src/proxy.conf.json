@@ -1,0 +1,13 @@
+{
+  "/api": {
+    "target": "https://localhost:7214",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/weatherforecast": {
+    "target": "https://localhost:7214",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

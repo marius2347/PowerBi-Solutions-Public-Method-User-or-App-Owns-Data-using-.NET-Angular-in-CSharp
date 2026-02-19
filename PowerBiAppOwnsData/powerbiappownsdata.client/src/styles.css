@@ -1,0 +1,18 @@
+/* global styling */
+html, body { 
+  height: 100%; 
+  margin: 0;
+  background-color: #121212;
+}
+
+body { 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  color: #ffffff;
+}
+
+/*  Power BI iframe styling */
+iframe[src*="powerbi"] {
+  height: 100% !important;
+  width: 100% !important;
+  min-height: 600px;
+}
